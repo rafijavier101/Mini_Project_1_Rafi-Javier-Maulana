@@ -78,3 +78,7 @@ try:
                 print("="*60)
                 print("MASUKKAN ANGKA YANG BENAR")
 jika ada data yang bisa diubah, user bisa memilih data mana yang mau diubah, setelah memilih user harus memasukkan data baru.
+
+<img width="441" height="322" alt="terminal 2 1" src="https://github.com/user-attachments/assets/477f6814-b3b7-46c4-b722-98bb3ba04cd8" />
+<img width="414" height="546" alt="terminal 2 2" src="https://github.com/user-attachments/assets/d5254552-817e-4e98-afa5-7c8eab19775f" />
+
