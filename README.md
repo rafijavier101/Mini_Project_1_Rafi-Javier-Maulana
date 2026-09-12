@@ -82,3 +82,29 @@ jika ada data yang bisa diubah, user bisa memilih data mana yang mau diubah, set
 <img width="441" height="322" alt="terminal 2 1" src="https://github.com/user-attachments/assets/477f6814-b3b7-46c4-b722-98bb3ba04cd8" />
 <img width="414" height="546" alt="terminal 2 2" src="https://github.com/user-attachments/assets/d5254552-817e-4e98-afa5-7c8eab19775f" />
 
+baris ke 53-68 kode untuk menghapus data running log yang sudah ada.
+ 
+ elif pilih == "3":
+ 
+        if not rlog:
+            print("TIDAK ADA DATA YANG BISA DIHAPUS")
+        else:
+            print("Daftar Running Log")
+            for idx, data in enumerate(rlog, 1):
+                print(f"{idx}. Hari : {data[0]}, Lokasi : {data[1]}, Jarak : {data[2]} km")
+
+jika user memilih [3] pada menu, maka akan masuk ke proses menghapus data yang diawali dengan mengecek apakh ada data yang bisa dihapus. Jika ada data yang bisa dihapus maka seluruh data akan ditampilkan.
+
+try:
+
+                hapus = int(input("pilih data yang mau dihapus : ")) - 1
+                if 0 <= hapus < len(rlog):
+                    rlog.pop(hapus)
+                else:
+                    print("="*60)
+                    print("DATA TIDAK ADA")
+            except ValueError:
+                print("MASUKKAN ANGKA YANG BENAR")
+
+
+
