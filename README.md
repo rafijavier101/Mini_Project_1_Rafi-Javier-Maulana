@@ -22,7 +22,7 @@ baris ke 13-29 adalah kode untuk menginput data running log.
         hari = input("Berlari di hari apa? : ")
         lokasi = input("Berlari dimana? : ")
         
-jika user memilih [1] maka akan masuk ke proses input data.
+jika user memilih [1] pada menu, maka akan masuk ke proses input data.
 
 while True:
 
@@ -47,4 +47,34 @@ Khusus untuk input [jarak] mengunakan while True, jika user menginput jarak < 0 
 
 <img width="1280" height="800" alt="code 2 3" src="https://github.com/user-attachments/assets/2ac59c53-406f-41ec-9a7c-87540b849688" />
 
+baris ke 30-52 adalah kode untuk mengubah data running log yang sudah ada.
 
+ elif pilih == "2":
+ 
+        if not rlog:
+            print("TIDAK ADA DATA YANG BISA DI UBAH")
+        else:
+            print("DAFTAR RUNNIG LOG")
+            for idx, data in enumerate(rlog, 1):
+                print(f"{idx}. Hari : {data[0]}, Lokasi : {data[1]}, Jarak : {data[2]} km")
+
+jika user memilih [2] pada menu, maka akan masuk ke proses mengubah data yang diawali dengan mengecek apakh ada data yang bisa diubah. Jika ada data yang bisa diubah maka seluruh data akan ditampilkan.
+
+try:
+
+                pili = int(input("pilih data yang mau di ubah : ")) - 1
+                if 0 <= pili < len(rlog):
+                    hari = input("Masukkan hari baru :")
+                    lokasi = input("Masukkan lokasi baru :")
+                    jarak = float(input("Masukkan jarak baru :"))
+                    rlog[pili] = (hari, lokasi, jarak)
+                    print("="*60)
+                    print(" DATA BERHASIL DI UPDATE")
+                    print("="*60)
+                else:   
+                    print("="*60)
+                    print("DATA TIDAK ADA")
+            except ValueError:
+                print("="*60)
+                print("MASUKKAN ANGKA YANG BENAR")
+jika ada data yang bisa diubah, user bisa memilih data mana yang mau diubah, setelah memilih user harus memasukkan data baru.
