@@ -107,4 +107,32 @@ try:
                 print("MASUKKAN ANGKA YANG BENAR")
 
 
+Jika ada data yang bisa dihapus, user harus memilih data mana yang mau di hapus.
+
+<img width="434" height="350" alt="terminal 3" src="https://github.com/user-attachments/assets/6eb73265-40e8-469c-82c0-9f1ea46e1e80" />
+<img width="414" height="603" alt="terminal 3 2" src="https://github.com/user-attachments/assets/81139d98-cade-4103-b21f-828a6e29fb98" />
+
+<img width="1280" height="800" alt="code 4 5" src="https://github.com/user-attachments/assets/8a40f20c-d72d-48a3-8854-1e5a988587e9" />
+
+baris ke 69-75 adalah kode untuk emlihat semua data yang sudah diinput.
+ 
+ elif pilih == "4":
+ 
+        if not rlog:
+            print("TIDAK ADA DATA")
+        else: 
+            print("DAFTAR RUNNING LOG")
+            for idx, data in enumerate(rlog, 1):
+                print(f"{idx}. Hari : {data[0]}, Lokasi : {data[1]}, Jarak : {data[2]} km")
+ 
+jika user memilih [4] pada menu, maka akan dicek apakah ada data running log, jika ada semua data akan ditampilkan.
+
+<img width="421" height="385" alt="terminal 4" src="https://github.com/user-attachments/assets/fa338e62-057f-4d8a-8e5d-8e37a5cb2d25" />
+<img width="421" height="321" alt="terminal 4 2 " src="https://github.com/user-attachments/assets/782a5048-4b1f-40d5-ae01-92f5a54b8ff7" />
+
+jika user memilih [5] pada menu, maka program akan berhenti.
+
+<img width="419" height="189" alt="terminal 5" src="https://github.com/user-attachments/assets/35a53f1e-13ee-4777-8061-7450c6db7fa5" />
+
+
 
