@@ -35,7 +35,16 @@ while True:
             except ValueError:            
                 print("="*60)             
                 print("JARAK LARI HARUS BERUPA ANGKA")
+        print("="*60)
+        print("RUNNING LOG + 1")
+        rdata = (hari, lokasi, jarak)
+        rlog.append(rdata)
 
-Khusus untuk input [jarak] mengunakan while True, jika user menginput jarak < 0 atau menginput variabel user akan diminta untuk input ulang hingga datanya valid.
+Khusus untuk input [jarak] mengunakan while True, jika user menginput jarak < 0 atau menginput variabel user akan diminta untuk input ulang hingga datanya valid. Sedangkan jika user menginput semua data dengan benar, maka running log akan bertambah 1
 
-Jika user menginput semua data dengan benar, maka running log akan bertambah 1
+<img width="418" height="707" alt="terminal menu 1" src="https://github.com/user-attachments/assets/e39d7b6d-f8d7-47e8-9b9e-f1e476747897" />
+
+
+<img width="1280" height="800" alt="code 2 3" src="https://github.com/user-attachments/assets/2ac59c53-406f-41ec-9a7c-87540b849688" />
+
+
