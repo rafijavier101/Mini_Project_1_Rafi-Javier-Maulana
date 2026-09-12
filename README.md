@@ -37,3 +37,5 @@ while True:
                 print("JARAK LARI HARUS BERUPA ANGKA")
 
 Khusus untuk input [jarak] mengunakan while True, jika user menginput jarak < 0 atau menginput variabel user akan diminta untuk input ulang hingga datanya valid.
+
+Jika user menginput semua data dengan benar, maka running log akan bertambah 1
