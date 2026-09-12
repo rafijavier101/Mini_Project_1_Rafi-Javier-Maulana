@@ -9,9 +9,11 @@ rlog = [] adalah wadah list
 
 while True untuk mengloop semua code yang ada setelahnya
 
+
 baris ke 3-12 adalah tampilan menu utama
 
 <img width="413" height="146" alt="menu ter" src="https://github.com/user-attachments/assets/7cfeec24-9ba1-47c7-886e-4e08f9a5d0a3" />
+
 
 baris ke 13-29 adalah kode untuk menginput data running log. 
 
